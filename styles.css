@@ -1,0 +1,403 @@
+/* RESET */
+
+  body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: white;
+  color: #111;
+
+}
+
+/* NAVBAR */
+nav {
+
+  position: fixed;
+  width: 100%;
+  top: 0;
+
+  background: rgba(255, 255, 255, 0.8); /* blanco transparente */
+  backdrop-filter: blur(10px);
+
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+  padding: 15px 40px;
+
+  box-sizing: border-box;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  z-index: 1000;
+
+}
+
+nav a {
+  color: #555;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: black;
+}
+
+
+.hero h1 {
+  font-size: 60px;
+}
+
+.hero p {
+  color: #555;
+  margin: 20px 0;
+}
+
+/* BOTÓN */
+.btn {
+  width: fit-content;
+  padding: 12px 24px;
+  background: #00ffcc;
+  color: black;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* SECCIÓN DOS COLUMNAS */
+.seccion-dos-columnas {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  max-width: 1100px;
+  margin: auto;
+  padding: 100px 20px;
+  text-align: left;
+}
+
+.seccion-texto {
+  flex: 1;
+}
+
+.seccion-texto h2 {
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.seccion-imagen {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.seccion-imagen img {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 12px;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  flex: 1;
+  min-width: 200px;
+  max-width: 320px; 
+  padding: 25px;
+  background: #f8f8f8;
+  border-radius: 12px;
+  border: 1px solid #eee;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #00ffcc;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 40px;
+  color: #777;
+}
+
+/* HERO 2 COLUMNAS */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+
+  gap: 60px;
+  padding: 0 20px;
+
+}
+
+.hero-text {
+  flex: 1;
+  text-align: center;
+
+}
+
+.hero-text h1 {
+  font-size: 50px;
+}
+
+.hero-text p {
+  color: #555;
+  margin: 20px 0;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 500px;
+}
+.marquee-container {
+  width: 100%;
+  background-color: #3758D3;
+  overflow: hidden;
+  padding: 14px 0;
+  margin-top: -98px;
+}
+
+.marquee-track {
+  display: inline-block;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 28s linear infinite;
+}
+
+.marquee-track span {
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 100vw;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+nav {
+  height: 70px;
+}
+
+.logo-nav {
+  height: 40px;
+  width: auto;
+}
+
+.seccion-invertida {
+  flex-direction: row-reverse;
+}
+
+/* SECCIÓN CÓMO PUEDO AYUDARTE */
+.seccion-ayuda {
+  background-image: url('admin-anuncio.png'); /* ← tu imagen */
+  background-attachment: fixed; /* ← esto crea el efecto parallax */
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  padding: 100px 20px;
+  text-align: center;
+  color:#111;
+  position: relative;
+}
+
+.seccion-ayuda h2 {
+  font-size: 52px;   
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.seccion-ayuda p {
+  color:#111 (255, 255, 255, 0.85);
+  max-width: 700px; 
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* SECCIÓN SERVICIOS */
+.seccion-servicios {
+  text-align: center;
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px 80px;
+}
+
+.seccion-servicios h2 {
+  font-size: 42px;
+  margin-bottom: 40px;
+}
+
+.card-blanco {
+  background: #f4f4f4;
+  color: #111;
+  border: 1px solid #eee;
+}
+
+.card-azul {
+  background: #3758D3;
+  color: white;
+  border: none;
+}
+
+.card-azul:hover {
+  border-color: #3758D3;
+}
+
+.servicios-descripcion {
+  max-width: 700px;
+  margin: 0 auto 20px;
+  color: #555;
+  font-size: 18px;
+}
+
+.seccion-texto ul {
+  padding-left: 20px;
+  margin: 15px 0;
+}
+
+.seccion-texto ul li {
+  margin-bottom: 10px;
+  color: #111;
+  line-height: 1.6;
+}
+
+/* FRANJA PUNTOS */
+.franja-puntos {
+  background-color: #3758D3;
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+  padding: 30px 40px;
+}
+
+.punto {
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+  color: white;
+  padding: 0 30px;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.punto-icono {
+  font-size: 36px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.punto p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.punto:last-child {
+  border-right: none; /* ← quita la línea del último */
+}
+
+.seccion-ayuda::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(240, 240, 241, 0.75); /* azul semitransparente */
+  z-index: 0;
+}
+
+.seccion-ayuda h2,
+.seccion-ayuda p {
+  position: relative;
+  z-index: 1;
+}
+
+footer {
+  border-top: 1px solid #eee;
+  padding: 30px 40px;
+  background-color: white;
+  margin-top: 60px;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  height: 40px;
+  width: auto;
+}
+
+.footer-redes a {
+  color: #555;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.footer-redes a:hover {
+  color: black;
+}
+
+.footer-bottom {
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.footer-frase {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 8px;
+  font-style: italic;
+}
+
+.footer-copyright {
+  font-size: 13px;
+  color: #aaa;
+}
