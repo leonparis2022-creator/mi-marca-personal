@@ -481,3 +481,40 @@ footer {
 .fondo-gris {
   background: #f4f4f4;
 }
+
+/* SOBRE MÍ */
+.sobre-mi-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
+  max-width: 1100px;
+  margin: 120px auto 80px;
+  padding: 0 20px;
+}
+
+.sobre-mi-imagen img {
+  width: 300px;
+  border-radius: 12px;
+}
+
+.sobre-mi-texto h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.sobre-mi-texto p {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+  .sobre-mi-container {
+    flex-direction: column;
+    margin: 100px 20px 60px;
+  }
+
+  .sobre-mi-imagen img {
+    width: 100%;
+  }
+}
