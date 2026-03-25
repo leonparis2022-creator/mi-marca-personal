@@ -551,10 +551,10 @@ footer {
 
 .seccion-parallax {
   flex: 1;
-  min-height: 300px;
-  background-attachment: fixed;
-  background-size: contain; /* ← cambiá cover por contain */
+  min-height: 350px;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 12px;
+  background-attachment: scroll;
 }
