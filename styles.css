@@ -549,3 +549,11 @@ footer {
   margin-top: -90px; /* ← ajustá este valor */
 }
 
+.seccion-parallax {
+  flex: 1;
+  min-height: 400px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+}
