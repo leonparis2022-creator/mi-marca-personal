@@ -537,4 +537,15 @@ footer {
   line-height: 1.8;
   margin-bottom: 16px;
 }
+.seccion-servicios-item {
+  padding: 20px 10px;
+}
+
+.servicios-page + .seccion-dos-columnas {
+  margin-top: 0;
+}
+
+.seccion-dos-columnas + .seccion-dos-columnas {
+  margin-top: -90px; /* ← ajustá este valor */
+}
 
