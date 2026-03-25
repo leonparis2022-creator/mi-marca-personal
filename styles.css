@@ -518,37 +518,3 @@ footer {
     width: 100%;
   }
 }
-
-/* PÁGINA SERVICIOS */
-.servicios-page {
-  max-width: 800px;
-  margin: 120px auto 40px;
-  padding: 0 20px;
-}
-
-.servicios-page h1 {
-  font-size: 42px;
-  margin-bottom: 30px;
-}
-
-.servicios-page p {
-  color: #555;
-  line-height: 1.8;
-  margin-bottom: 16px;
-}
-
-.servicios-cards {
-  display: flex;
-  gap: 30px;
-  max-width: 1000px;
-  margin: 0 auto 80px;
-  padding: 0 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.servicios-cards .card {
-  flex: 1;
-  min-width: 280px;
-  max-width: 450px;
-}
