@@ -518,3 +518,23 @@ footer {
     width: 100%;
   }
 }
+
+.servicios-page {
+  max-width: 800px;
+  margin: 120px auto 40px;
+  padding: 0 20px;
+  text-align: center; /* ← centra el texto */
+}
+
+.servicios-page h1 {
+  font-size: 42px;
+  margin-bottom: 30px;
+  color: #111; /* ← asegura que el título se vea */
+}
+
+.servicios-page p {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
