@@ -546,14 +546,15 @@ footer {
 }
 
 .seccion-dos-columnas + .seccion-dos-columnas {
-  margin-top: -90px; /* ← ajustá este valor */
+  margin-top: -60px; /* ← ajustá este valor */
 }
 
 .seccion-parallax {
   flex: 1;
-  min-height: 400px;
+  min-height: 300px;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: contain; /* ← cambiá cover por contain */
   background-position: center;
+  background-repeat: no-repeat;
   border-radius: 12px;
 }
