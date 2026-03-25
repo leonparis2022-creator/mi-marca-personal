@@ -514,6 +514,13 @@ footer {
     margin: 100px 20px 60px;
   }
 
+  .seccion-parallax {
+    min-height: 250px;
+    background-size: contain;
+    background-attachment: scroll;
+    width: 100%;
+    }
+
   .sobre-mi-imagen img {
     width: 100%;
   }
