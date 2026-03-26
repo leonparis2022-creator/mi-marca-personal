@@ -514,54 +514,56 @@ footer {
     margin: 100px 20px 60px;
   }
 
+  .sobre-mi-imagen img {
+    width: 100%;
+  }
+
   .seccion-parallax {
     min-height: 250px;
     background-size: contain;
     background-attachment: scroll;
     width: 100%;
-    }
+  }
 
-  .sobre-mi-imagen img {
+  .servicios-page {
+    margin: 80px 20px 20px;
+  }
+
+  .seccion-dos-columnas {
+    gap: 10px;
+    padding: 30px 20px;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
     width: 100%;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links a {
+    margin: 10px 0;
+    font-size: 16px;
   }
 }
 
-.servicios-page {
-  max-width: 800px;
-  margin: 120px auto 40px;
-  padding: 0 20px;
-  text-align: center; /* ← centra el texto */
-}
-
-.servicios-page h1 {
-  font-size: 42px;
-  margin-bottom: 30px;
-  color: #111; /* ← asegura que el título se vea */
-}
-
-.servicios-page p {
-  color: #111;
-  line-height: 1.8;
-  margin-bottom: 16px;
-}
-.seccion-servicios-item {
-  padding: 20px 10px;
-}
-
-.servicios-page + .seccion-dos-columnas {
-  margin-top: 0;
-}
-
-.seccion-dos-columnas + .seccion-dos-columnas {
-  margin-top: -60px; /* ← ajustá este valor */
-}
-
-.seccion-parallax {
-  flex: 1;
-  min-height: 350px;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 12px;
-  background-attachment: scroll;
+.menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
 }
