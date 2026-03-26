@@ -10,14 +10,15 @@
 
   <!-- NAVBAR -->
   <nav>
-    <img src="/mi-logo.png" alt="Logo" class="logo-nav">
-    <div>
-      <a href="/">Inicio</a>
-      <a href="/sobre-mi">Sobre mí</a>
-      <a href="/servicios">Servicios</a>
-      <a href="mailto:leonparis.ingeniero@gmail.com">Contacto</a>
-    </div>
-  </nav>
+  <img src="/mi-logo.png" alt="Logo" class="logo-nav">
+  <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  <div class="nav-links" id="nav-links">
+    <a href="/">Inicio</a>
+    <a href="/sobre-mi">Sobre mí</a>
+    <a href="/servicios">Servicios</a>
+    <a href="mailto:leonparis.ingeniero@gmail.com">Contacto</a>
+  </div>
+</nav>
 
   <!-- DESCRIPCIÓN GENERAL -->
   <section class="servicios-page">
@@ -61,6 +62,15 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById('nav-links');
+      nav.classList.toggle('active');
+    }
+  </script>
+
+  <script src="script.js"></script>
 
 </body>
 </html>
