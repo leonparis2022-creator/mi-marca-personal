@@ -536,3 +536,143 @@ footer {
     margin: 0 10px;
   }
 }
+/* BLOG - ARTÍCULO */
+.articulo-container {
+  max-width: 800px;
+  margin: 120px auto 80px;
+  padding: 0 20px;
+}
+
+.articulo-titulo {
+  font-size: 38px;
+  line-height: 1.2;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.articulo-fecha {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.articulo-imagen-principal img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+/* ÍNDICE */
+.articulo-indice {
+  background: #f4f4f4;
+  border-left: 4px solid #3758D3;
+  padding: 20px 30px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.articulo-indice h2 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #111;
+}
+
+.articulo-indice ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.articulo-indice li {
+  margin-bottom: 8px;
+}
+
+.articulo-indice a {
+  color: #3758D3;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.articulo-indice a:hover {
+  text-decoration: underline;
+}
+
+/* CONTENIDO */
+.articulo-contenido h2 {
+  font-size: 28px;
+  color: #111;
+  margin: 40px 0 16px;
+}
+
+.articulo-contenido p {
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.articulo-contenido ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.articulo-contenido ul li {
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 8px;
+}
+
+.articulo-imagen-seccion {
+  width: 100%;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+/* DESTACADO */
+.articulo-destacado {
+  background: #f4f4f4;
+  border-left: 4px solid #3758D3;
+  padding: 20px 30px;
+  border-radius: 8px;
+  margin: 30px 0;
+}
+
+.articulo-destacado p {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+/* FAQS */
+.articulo-faqs {
+  margin-top: 20px;
+}
+
+.faq-item {
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+}
+
+.faq-item h3 {
+  font-size: 18px;
+  color: #111;
+  margin-bottom: 8px;
+}
+
+.faq-item p {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* RESPONSIVE BLOG */
+@media (max-width: 768px) {
+  .articulo-container {
+    margin: 100px 20px 60px;
+  }
+
+  .articulo-titulo {
+    font-size: 26px;
+  }
+
+  .articulo-contenido h2 {
+    font-size: 22px;
+  }
+}
