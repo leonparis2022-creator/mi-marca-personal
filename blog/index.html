@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - María París</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <img src="/mi-logo.png" alt="Logo" class="logo-nav">
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    <div class="nav-links" id="nav-links">
+      <a href="/">Inicio</a>
+      <a href="/sobre-mi">Sobre mí</a>
+      <a href="/servicios">Servicios</a>
+      <a href="/blog">Blog</a>
+      <a href="mailto:leonparis.ingeniero@gmail.com">Contacto</a>
+    </div>
+  </nav>
+
+  <!-- ENCABEZADO -->
+  <section class="blog-header">
+    <h1>Blog</h1>
+    <p>Artículos sobre Meta Ads, publicidad digital y estrategias para conseguir más clientes.</p>
+  </section>
+
+  <!-- LISTA DE ARTÍCULOS -->
+  <section class="blog-lista">
+
+    <!-- ARTÍCULO 1 -->
+    <a href="/blog/cuanto-invertir-meta-ads/" class="blog-card">
+      <div class="blog-card-imagen">
+        <img src="/blog1.png" alt="¿Cuánto invertir en Meta Ads?">
+      </div>
+      <div class="blog-card-contenido">
+        <p class="blog-card-fecha">📅 2026 · Meta Ads</p>
+        <h2>¿Cuánto dinero necesitas para empezar en Meta Ads? (Guía realista para 2026)</h2>
+        <p>La pregunta que más se repite entre nuevos anunciantes es ¿cuánto dinero necesito realmente para que funcione? Te explico de forma realista cómo empezar.</p>
+        <span class="blog-card-leer">Leer artículo →</span>
+      </div>
+    </a>
+    <!-- ARTÍCULO 2 -->
+    <a href="/blog/psicologia-consumidor/" class="blog-card">
+      <div class="blog-card-imagen">
+        <img src="/blog2.png" alt="Psicologia del consumidor">
+      </div>
+      <div class="blog-card-contenido">
+        <p class="blog-card-fecha">📅 2026 · Meta Ads</p>
+        <h2>Psicologia del consumidor: Cómo crear publicidad que realmente convierta</h2>
+        <p>Si alguna vez has invertido en Meta Ads y no has obtenido resultados, probablemente no es un problema de presupuesto Es un problema de psicología. La realidad es esta.</p>
+        <span class="blog-card-leer">Leer artículo →</span>
+      </div>
+    </a>
+    <!-- ARTÍCULO 3 -->
+    <a href="/blog/metricas-importantes/" class="blog-card">
+      <div class="blog-card-imagen">
+        <img src="/blog3.png" alt="Metricas Importantes">
+      </div>
+      <div class="blog-card-contenido">
+        <p class="blog-card-fecha">📅 2026 · Meta Ads</p>
+        <h2>Métricas Importantes: aprende a leer las métrica que te muestra una campaña</h2>
+        <p>Quizás eres uno de los que probó el botón promocionar y no obtuvo resultados fiables. Lanzar tu primera campaña desde el administrador de anuncios te ha generado un tanto de ansiedad por no saber .</p>
+        <span class="blog-card-leer">Leer artículo →</span>
+      </div>
+    </a>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-top">
+        <img src="/mi-logo.png" alt="Logo" class="footer-logo">
+        <div class="footer-redes">
+          <a href="https://www.instagram.com/marialeonparis?igsh=MTBzdWlyeDBxbTBiMQ==" target="_blank">Instagram</a>
+          <a href="https://www.linkedin.com/in/maria-lourdes-leon-paris" target="_blank">LinkedIn</a>
+          <a href="mailto:leonparis.ingeniero@gmail.com">Correo</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-frase">"La publicidad solo puede acelerar el éxito de un buen producto." — David Ogilvy</p>
+        <p class="footer-copyright">© 2026 María París. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById('nav-links');
+      nav.classList.toggle('active');
+    }
+  </script>
+
+</body>
+</html>

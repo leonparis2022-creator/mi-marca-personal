@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- ← agregá esto -->
+  <title>Maria Paris</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/MP Favicon.png" type="image/x-icon">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+<nav>
+  <img src="/mi-logo.png" alt="Logo" class="logo-nav">
+  <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  <div class="nav-links" id="nav-links">
+    <a href="/">Inicio</a>
+    <a href="/sobre-mi">Sobre mí</a>
+    <a href="/servicios">Servicios</a>
+    <a href="/blog/cuanto-invertir-ads.html">Blog</a>
+    <a href="mailto:leonparis.ingeniero@gmail.com">Contacto</a>
+  </div>
+</nav>
+ <!-- FOOTER -->
+<footer>
+  <div class="footer-container">
+
+    <div class="footer-top">
+      <img src="mi-logo.png" alt="Logo" class="footer-logo">
+      <div class="footer-redes">
+        <a href="https://www.instagram.com/marialeonparis?igsh=MTBzdWlyeDBxbTBiMQ==" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com/in/maria-lourdes-leon-paris" target="_blank">LinkedIn</a>
+        <a href="mailto:leonparis.ingeniero@gmail.com"target="_blank">correo</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-frase">"La publicidad solo puede acelerar el éxito de un buen producto." — David Ogilvy</p>
+      <p class="footer-copyright">© 2026 María París. Todos los derechos reservados.</p>
+    </div>
+
+  </div>
+</footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById('nav-links');
+      nav.classList.toggle('active');
+    }
+  </script>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
