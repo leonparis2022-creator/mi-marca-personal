@@ -564,11 +564,10 @@ footer {
 
 /* ÍNDICE */
 .articulo-indice {
-  background: #f4f4f4;
-  border-left: 4px solid #3758D3;
-  padding: 20px 30px;
-  border-radius: 8px;
-  margin-bottom: 40px;
+  padding: 60px 0;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 0;
 }
 
 .articulo-indice h2 {
@@ -580,6 +579,8 @@ footer {
 .articulo-indice ol {
   margin: 0;
   padding-left: 20px;
+  display: flex;
+  flex-direction: column; /* ← esto pone los items en columna */
 }
 
 .articulo-indice li {
@@ -587,7 +588,7 @@ footer {
 }
 
 .articulo-indice a {
-  color: #3758D3;
+  color: #111;
   text-decoration: none;
   font-size: 15px;
 }
