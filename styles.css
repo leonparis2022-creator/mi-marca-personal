@@ -240,7 +240,7 @@ nav a:hover {
 /* SECCIÓN CÓMO PUEDO AYUDARTE */
 .seccion-ayuda {
   max-width: 100%;
-  padding: 40px 20px 20px;
+  padding: 40px 60px 20px;
   text-align: center;
   color: #111;
 }
@@ -250,6 +250,9 @@ nav a:hover {
   line-height: 1.2;
   margin-bottom: 20px;
   color: #111;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .seccion-ayuda p {
@@ -322,7 +325,7 @@ nav a:hover {
 }
 
 .servicios-page p {
-  color: #555;
+  color: #111;
   line-height: 1.8;
   margin-bottom: 16px;
 }
