@@ -795,3 +795,26 @@ h2[id] {
     padding: 20px;
   }
 }
+
+.articulo-tabla {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px 0;
+}
+
+.articulo-tabla th {
+  background: #3758D3;
+  color: white;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.articulo-tabla td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #eee;
+  color: #444;
+}
+
+.articulo-tabla tr:nth-child(even) {
+  background: #f4f4f4;
+}
